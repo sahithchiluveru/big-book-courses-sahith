@@ -1,0 +1,140 @@
+body {
+    overflow-x : hidden
+}
+#logo {
+    height : 54px;
+    width : 180px;
+}
+#logo_section {
+    margin-left : 7%; 
+}
+#navigation_section{
+    margin-right : 2%;
+}
+
+#buttons_section{
+    margin-right : 5%;
+}
+
+#sign_in, #sign_up {
+    line-height : 1.8em;
+    border-radius : 0px;
+    font-family : sans-serif;
+}
+#sign_in {
+    background-color : rgb(12, 177, 253);
+    margin : 0 10px 0 10px;
+}
+
+#sign_up {
+    background-color : rgb(14, 88, 248);
+}
+
+#courses {
+  border-bottom: 3px solid rgb(50, 53, 205);
+}
+
+#home, #courses, #about, #search, #elibrary, #contact {
+    color : grey;
+}
+
+p {
+    margin : 0 0 0 0; 
+    color : black;
+}
+
+
+#main_section {
+    box-shadow: 0px 0px 3px  #000000;
+    margin : 0;
+    padding : 0;
+}
+
+/*________________________________________________________*/
+
+.container-fluid, #feature_cours_img_section {
+    position: relative;
+    color: black;
+    padding : 0;
+    margin : 0;
+}
+
+#footer_section {
+    display : flex;
+    flex-direction : column;
+    align-items: center;     
+    height : 27em;
+    width : 100%;
+    background-color : #555;
+}
+
+#footer_section > * {
+    color : white;
+}
+
+p.serif { 
+    margin-top : 2em;
+    font-family: "Times New Roman", Times, serif; 
+}
+
+#home_1, #courses_1, #search_1, #about_1,#elibrary_1, #contact_1 {
+    color : white;
+}
+
+.hr_1 {
+    border: 1px solid grey;
+    width : 60px;
+}
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius : 5px
+}
+
+
+
+
+.fa{
+    background: #202020;    
+    color: white;
+}
+
+#circle_image {
+    height : 40px;
+    width : 40px;
+    border : 1px solid #555;
+    border-radius : 50%
+}
+.del {
+    font-size : 20px;
+    color : grey;
+}
+
+.price {
+    font-size : 30px;
+    color : #FF3C3C;
+}
+
+.coursesname {
+    font-size : 1.5em;
+    color : black;
+    font-weight: bold;
+}
+
+#cours_image {
+    height : 170px;
+    width : 100%;
+}
+
+#popcourses {
+    padding : 0 12.5% 0 12.5%;
+    margin-bottom : 10em
+}
+
+#img_sec {
+    padding : 0
+}

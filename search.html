@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BBC | Search</title> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="search.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm" id = "main_section">
+        <div class="navbar-header" id = "logo_section">
+            <img src="../img/bbclogo.png" id = "logo" alt="Error" style="height: 200px; width:220px;">
+        </div>
+        <h2>Big Book Courses</h2>
+        <ul class="nav navbar-nav ml-auto" id = "navigation_section">
+            <li class="nav-item">
+                <a class="nav-link" href="../home/home.html"><p id = "home" >Home</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../courses/courses.html"><p id = "courses">Popular Courses</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><p id = "search" >Search</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><p id = "elibrary" >e-Library</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../home/home.html#personal_section"><p id = "about">About</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../contact-us/contactus.html"><p id = "contact" >Contact Us</p></a>
+            </li>
+        </ul>
+        <div id = "buttons_section">
+            <button type="button" class="btn btn-lg" id = "sign_in">Sign in</button>
+            <button type="button" class="btn btn-lg" id = "sign_up">Sign up</button>
+        </div>
+    </nav>
+    <hr>
+    <p style="margin-left: 2%;">
+        Search among 2,000+ courses!
+    </p>
+    <br>
+
+    <form>
+        <input type="text" name="search" placeholder="Search.." style="align-self: center;">
+        <br>
+        <br>
+        <button class="submit">Search BBC</button>
+
+      </form>
+      <div class="poweredby">
+          <h5>This search tool is powered by</h5>
+          <img src="../img/powered.gif" style="height: 70px; width: 70px;">
+          
+
+      </div>
+
+</body>
+</html>

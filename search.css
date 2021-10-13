@@ -1,0 +1,85 @@
+body {
+    overflow-x : hidden
+  }
+  #logo {
+    height : 54px;
+    width : 180px;
+  }
+  #logo_section {
+    margin-left : 7%; 
+  }
+  #navigation_section{
+    margin-right : 2%;
+  }
+  
+  #buttons_section{
+    margin-right : 5%;
+  }
+  
+  #sign_in, #sign_up {
+    line-height : 1.8em;
+    border-radius : 0px;
+    font-family : sans-serif;
+  }
+  #sign_in {
+    background-color : rgb(12, 165, 253);
+    margin : 0 10px 0 10px;
+  }
+  
+  #sign_up {
+    background-color : rgb(14, 115, 248);
+  }
+  
+  #search {
+  border-bottom: 3px solid rgb(50, 53, 205);
+  }
+  
+  #home, #courses, #about, #search, #elibrary, #contact {
+    color : grey;
+  }
+  
+  p {
+    margin : 0 0 0 0; 
+    color : black;
+  }
+  
+    
+  
+  input[type=text] {
+    width: 130px;
+    margin-left: 2%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-image: url('../img/searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  input[type=text]:focus {
+    width: 40%;
+  }
+  .submit {
+    margin-left: 2%;
+    background-color: rgb(69, 150, 226); 
+    border: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    color:black;
+  }
+  .submit:hover{
+      background-color: rgb(50, 148, 205);
+  }
+  .poweredby{
+      text-align: center;
+      margin-top: 3%;
+  }

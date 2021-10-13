@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BBC | Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="contactus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm" id = "main_section">
+        <div class="navbar-header" id = "logo_section">
+            <img src="../img/bbclogo.png" id = "logo" alt="Error" style="height: 200px; width:220px;">
+        </div>
+        <h2>Big Book Courses</h2>
+        <ul class="nav navbar-nav ml-auto" id = "navigation_section">
+            <li class="nav-item">
+                <a class="nav-link" href="../home/home.html"><p id = "home" >Home</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../courses/courses.html"><p id = "courses">Popular Courses</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../search/search.html"><p id = "search" >Search</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><p id = "elibrary" >e-Library</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../home/home.html#personal_section"><p id = "about">About</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><p id = "contact" >Contact Us</p></a>
+            </li>
+        </ul>
+        <div id = "buttons_section">
+            <button type="button" class="btn btn-lg" id = "sign_in">Sign in</button>
+            <button type="button" class="btn btn-lg" id = "sign_up">Sign up</button>
+        </div>
+    </nav>
+    <hr>
+<div class = "container-fluidi d-flex align-items-center" id = "contactusform">
+    <div id = "ask_question">
+        <div class="d-flex align-items-center border-bottom" style = "padding : 1em">
+            <p class = "bold_text mb-3 blockquote" style="font-size:xx-large;">Get in touch with us!</p>
+        </div>
+       <form id="contactusform" action="mailto:sahithchiluveru@gmail.com" method="post" enctype="text/plain">
+
+      
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form-control"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+          <div class="form-group">
+            <label id="email-label" for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form-control"
+              placeholder="Enter your Email"
+              required
+            />
+            <div class="form-group">
+                <p>Any comments or suggestions?</p>
+                <textarea
+                  id="comments"
+                  class="input-textarea"
+                  name="comment"
+                  placeholder="Enter your comment here..."
+                ></textarea>
+              </div>
+
+              <div class="form-group">
+                <button type="submit" id="submit" class="submit-button">
+                  Submit
+                </button>
+              </div>
+              <div id="panda-hello"><img src="../img/panda-hello.gif"></div>
+            </form>
+    </div>
+</div>
+
+</body>
+</html>

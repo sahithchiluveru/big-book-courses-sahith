@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BBC | Courses</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="courses.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm" id = "main_section">
+        <div class="navbar-header" id = "logo_section">
+            <img src="../img/bbclogo.png" id = "logo" alt="Error" style="height: 200px; width:220px;">
+        </div>
+        <h2>Big Book Courses</h2>
+        <ul class="nav navbar-nav ml-auto" id = "navigation_section">
+            <li class="nav-item">
+                <a class="nav-link" href="../home/home.html"><p id = "home" >Home</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../courses/courses.html"><p id = "courses">Popular Courses</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../search/search.html"><p id = "search" >Search</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><p id = "elibrary" >e-Library</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../home/home.html#personal_section"><p id = "about">About</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../contact-us/contactus.html"><p id = "contact" >Contact Us</p></a>
+            </li>
+        </ul>
+        <div id = "buttons_section">
+            <button type="button" class="btn btn-lg" id = "sign_in">Sign in</button>
+            <button type="button" class="btn btn-lg" id = "sign_up">Sign up</button>
+        </div>
+    </nav>
+    <div class = "container-fluid" id = "popcourses">
+        <p class = "h1 mt-5"><strong>Popular Courses</strong></p>
+        <p class = "mt-4">The list of courses that are shown below are today's most popular picks on BBC.</p>
+        <div class = "text-muted mb-3 d-flex justify-content-end">More than 2,000 Courses</div>
+        <div class = "container-fluid">
+            <div class = "row mb-3">
+                <div class="col">
+                    <div class="thumbnail shadow p-1 bg-white rounded" id = "image_section">
+                        <a href="#" id = "courses_link" target="_blank" style = "text-decoration : none">
+                            <img src="../img/python.jpg" alt="Dog" id = "cours_image">
+                            <div class="caption">
+                                <p class = "coursesname">Python for Everybody</p>
+                                <p>Python course for absolute beginners. No prior knowledge required.
+                                </p>
+                            </div>
+                        </a>
+                        <div class = "d-flex flex-row mt-1 align-items-center">
+                            <div class = "d-flex flex-row mt-1 align-items-center col" id = "img_sec">
+                                <img src="../img/coursera.png" alt="Dog" id = "circle_image">
+                                <p class = "ml-2">Coursera</p>
+                            </div>
+                            <div class = "d-flex flex-row mt-1 align-items-center justify-content-end col">
+                                <p class = "del"><s><i>&#8377;</i>1,499</s></p>
+                                <p class = "price"><i>&#8377;</i>499</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="thumbnail shadow p-1 bg-white rounded" id = "image_section">
+                        <a href="#" id = "courses_link" target="_blank" style = "text-decoration : none">
+                            <img src="../img/java.png" alt="Dog" id = "cours_image">
+                            <div class="caption">
+                                <p class = "coursesname">Java Masterclass</p>
+                                <p>Master in Java language just by spending an hour per day for a month!
+                                </p>
+                            </div>
+                        </a>
+                        <div class = "d-flex flex-row mt-1 align-items-center">
+                            <div class = "d-flex flex-row mt-1 align-items-center col" id = "img_sec">
+                                <img src="../img/udemy.jpg" alt="Dog" id = "circle_image">
+                                <p class = "ml-2">Udemy</p>
+                            </div>
+                            <div class = "d-flex flex-row mt-1 align-items-center justify-content-end col">
+                                <p class = "del"><s><i>&#8377;</i>1,499</s></p>
+                                <p class = "price"><i>&#8377;</i>499</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="thumbnail shadow p-1 bg-white rounded" id = "image_section">
+                        <a href="#" id = "courses_link" target="_blank" style = "text-decoration : none">
+                            <img src="../img/thermo.png" alt="Dog" id = "cours_image">
+                            <div class="caption">
+                                <p class = "coursesname">Thermodynamics</p>
+                                <p>Complete physics behind Thermodynamics and heat. Suitable for IIT/JEE.
+                                </p>
+                            </div>
+                        </a>
+                        <div class = "d-flex flex-row mt-1 align-items-center">
+                            <div class = "d-flex flex-row mt-1 align-items-center col" id = "img_sec">
+                                <img src="../img/unacademy.png" alt="Dog" id = "circle_image">
+                                <p class = "ml-2">UnAcd</p>
+                            </div>
+                            <div class = "d-flex flex-row mt-1 align-items-center justify-content-end col">
+                                <p class = "del"><s><i>&#8377;</i>1,499</s></p>
+                                <p class = "price"><i>&#8377;</i>499</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class = "row mt-5 mb-3">
+                <div class="col">
+                    <div class="thumbnail shadow p-1 bg-white rounded" id = "image_section">
+                        <a href="#" id = "courses_link" target="_blank" style = "text-decoration : none">
+                            <img src="../img/autocad.jfif" alt="Dog" id = "cours_image">
+                            <div class="caption">
+                                <p class = "coursesname">Autocad</p>
+                                <p>Learn Autocad to master in creating blueprints for various things.
+                                </p>
+                            </div>
+                        </a>
+                        <div class = "d-flex flex-row mt-1 align-items-center">
+                            <div class = "d-flex flex-row mt-1 align-items-center col" id = "img_sec">
+                                <img src="../img/coursera.png" alt="Dog" id = "circle_image">
+                                <p class = "ml-2">Coursera</p>
+                            </div>
+                            <div class = "d-flex flex-row mt-1 align-items-center justify-content-end col">
+                                <p class = "del"><s><i>&#8377;</i>1,499</s></p>
+                                <p class = "price"><i>&#8377;</i>499</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="thumbnail shadow p-1 bg-white rounded" id = "image_section">
+                        <a href="#" id = "courses_link" target="_blank" style = "text-decoration : none">
+                            <img src="../img/elec.jpg" alt="Dog" id = "cours_image">
+                            <div class="caption">
+                                <p class = "coursesname">Electronics</p>
+                                <p>This course brings you all the fundamentals of Electronics, circuits and many more.
+                                </p>
+                            </div>
+                        </a>
+                        <div class = "d-flex flex-row mt-1 align-items-center">
+                            <div class = "d-flex flex-row mt-1 align-items-center col" id = "img_sec">
+                                <img src="../img/unacademy.png" alt="Dog" id = "circle_image">
+                                <p class = "ml-2">UnAcd</p>
+                            </div>
+                            <div class = "d-flex flex-row mt-1 align-items-center justify-content-end col">
+                                <p class = "del"><s><i>&#8377;</i>1,499</s></p>
+                                <p class = "price"><i>&#8377;</i>499</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="thumbnail shadow p-1 bg-white rounded" id = "image_section">
+                        <a href="#" id = "courses_link" target="_blank" style = "text-decoration : none">
+                            <img src="../img/cyber.jpg" alt="Dog" id = "cours_image">
+                            <div class="caption">
+                                <p class = "coursesname">Digital Forensics</p>
+                                <p>Investigate, analyze and recover the material found in digital devices.
+                                </p>
+                            </div>
+                        </a>
+                        <div class = "d-flex flex-row mt-1 align-items-center">
+                            <div class = "d-flex flex-row mt-1 align-items-center col" id = "img_sec">
+                                <img src="../img/coursera.png" alt="Dog" id = "circle_image">
+                                <p class = "ml-2">Coursera</p>
+                            </div>
+                            <div class = "d-flex flex-row mt-1 align-items-center justify-content-end col">
+                                <p class = "del"><s><i>&#8377;</i>1,499</s></p>
+                                <p class = "price"><i>&#8377;</i>499</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "row mt-5">
+                <div class="col">
+                    <div class="thumbnail shadow p-1 bg-white rounded" id = "image_section">
+                        <a href="#" id = "courses_link" target="_blank" style = "text-decoration : none">
+                            <img src="../img/pysch.jpg" alt="Dog" id = "cours_image">
+                            <div class="caption">
+                                <p class = "coursesname">Psychology</p>
+                                <p>Scientifically study people's minds and know them.
+                                </p>
+                            </div>
+                        </a>
+                        <div class = "d-flex flex-row mt-1 align-items-center">
+                            <div class = "d-flex flex-row mt-1 align-items-center col" id = "img_sec">
+                                <img src="../img/penn.png" alt="Dog" id = "circle_image">
+                                <p class = "ml-2">University Of Pennsylvania</p>
+                            </div>
+                            <div class = "d-flex flex-row mt-1 align-items-center justify-content-end col">
+                                <p class = "del"><s><i>&#8377;</i>1,499</s></p>
+                                <p class = "price"><i>&#8377;</i>499</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="thumbnail shadow p-1 bg-white rounded" id = "image_section">
+                        <a href="#" id = "courses_link" target="_blank" style = "text-decoration : none">
+                            <img src="../img/eco.jfif" alt="Dog" id = "cours_image">
+                            <div class="caption">
+                                <p class = "coursesname">Economics</p>
+                                <p>Know about production, consumption and many more with real world examples.
+                                </p>
+                            </div>
+                        </a>
+                        <div class = "d-flex flex-row mt-1 align-items-center">
+                            <div class = "d-flex flex-row mt-1 align-items-center col" id = "img_sec">
+                                <img src="../img/udemy.jpg" alt="Dog" id = "circle_image">
+                                <p class = "ml-2">Udemy</p>
+                            </div>
+                            <div class = "d-flex flex-row mt-1 align-items-center justify-content-end col">
+                                <p class = "del"><s><i>&#8377;</i>1,499</s></p>
+                                <p class = "price"><i>&#8377;</i>499</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="thumbnail shadow p-1 bg-white rounded" id = "image_section">
+                        <a href="#" id = "courses_link" target="_blank" style = "text-decoration : none">
+                            <img src="../img/deep.jpg" alt="Dog" id = "cours_image">
+                            <div class="caption">
+                                <p class = "coursesname">Deep Learning</p>
+                                <p>Build and train your first artificially driven robot using Deep Learning.
+                                </p>
+                            </div>
+                        </a>
+                        <div class = "d-flex flex-row mt-1 align-items-center">
+                            <div class = "d-flex flex-row mt-1 align-items-center col" id = "img_sec">
+                                <img src="../img/dl-ai.png" alt="Dog" id = "circle_image">
+                                <p class = "ml-2">DeepLearning.AI</p>
+                            </div>
+                            <div class = "d-flex flex-row mt-1 align-items-center justify-content-end col">
+                                <p class = "del"><s><i>&#8377;</i>1,499</s></p>
+                                <p class = "price"><i>&#8377;</i>499</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <div id = "footer_section" style="background-image: url(../img/footerbg.png); ">
+        <p class = "serif h1">Big Book Courses</p> 
+        <p class = "h6">Courses? BBC!</p> 
+        <ul class="nav form-inline mt-4">
+            <li class="nav-item">
+                <a class="nav-link" href="../home/home.html"><p id = "home_1" >Home</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../courses/courses.html"><p id = "courses_1">Popular Courses</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../search/search.html"><p id = "search_1" >Search</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><p id = "elibrary_1" >e-Library</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../home/home.html#personal_section"><p id = "about_1">About</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../contact-us/contactus.html"><p id = "contact_1" >Contact Us</p></a>
+            </li>
+        </ul>
+        <hr class = "hr_1"> 
+        <p class = "h6">Connect with us</p> 
+        <div>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </div>
+</body>
+</html>

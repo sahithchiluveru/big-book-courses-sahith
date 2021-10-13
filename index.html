@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BBC</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm" id = "main_section">
+    <div class="navbar-header" id = "logo_section">
+        <img src="../img/bbclogo.png" id = "logo" alt="BBC logo" style="height: 200px; width:220px;">
+    </div>
+    <h2>Big Book Courses</h2>
+    <ul class="nav navbar-nav ml-auto" id = "navigation_section">
+        <li class="nav-item">
+            <a class="nav-link" href="../home/home.html"><p id = "home" >Home</p></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../courses/courses.html"><p id = "courses">Popular Courses</p></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../search/search.html"><p id = "search" >Search</p></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#"><p id = "elibrary" >e-Library</p></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#personal_section"><p id = "about">About</p></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="../contact-us/contactus.html"><p id = "contact" >Contact Us</p></a>
+        </li>
+    </ul>
+    <div id = "buttons_section">
+        <button type="button" class="btn btn-lg" id = "sign_in">Sign in</button>
+        <button type="button" class="btn btn-lg" id = "sign_up">Sign up</button>
+    </div>
+</nav>
+    <div class = "container-fluid" id  = "mainpage">
+        <img src="../img/bgart.jpg" id = "art_img" alt="Error">
+        <div id = "art_img_section">
+            <p class = "bold_text">Your one stop to</p>
+            <p class = "bold_text"> find the right course.</p>
+            <p class = "bold_text">Think, Engage and Learn!</p>
+            <div class = "d-flex flex-row" id = "start_bt_section">
+                        <button type="button" class="btn btn-lg mr-3" id = "get_started" style="background-color: rgb(243, 247, 239);">
+                    <a style = "color:black;"href = "#introbbc">Get started</a>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div id  = "introbbc">
+        <p class = "bold_text">What is Big Book Courses?</p>
+        <p class = "feature_text">Big Book Courses is an online tool to search for the right course of best price among <br>
+             famous learning platforms such as Coursera, Udemy, Unskool, Unacademy and many more.<br><br>
+             Here at BBC, we also have an e-library which is free of cost. Contents of the e-library are from<br>
+              thoroughly verified sources.
+        </p>
+
+            <div class = "mt-3">
+                <button type="button" class="btn mr-3" id = "view_all"><a style = "color:black;" href="../search/search.html">Search for courses</a></button>
+                <button type="button" class="btn" id = "view_all">Free e-Library</button>
+            </div>
+	</div>
+    <div class = "container-fluid" id = "personal_section">
+        <div class="d-flex align-items-center justify-content-center" style = "padding : 1em">
+            <p class = "h3 mb-3"><strong>Minds behind BBC</strong></p>
+        </div>
+        <div class = "container-fluid">
+            <div class = "row d-flex justify-content-center">
+                <div id = "section_1" class = "d-flex flex-row justify-content-end pl-5">
+                    <div class = "col-mb-6"i style = "margin-right:2em">
+                        <div class = "row mr-b-5">
+                            <div class = "pr-5">
+                                <img class="img" style= "height: 150px; width : 150px"src= "../img/nasa.png">
+                            </div>
+                            <div>
+                                <p class = "h5 mb-2"><strong>Manasa Anand</strong></p>
+                                <p class = "mb-3">UI/UX Designer</p>
+                                <p>My aesthetic sense towards everything makes me<br> thrive into UI/UX designing. I love my job
+                                as it<br> is always about how well we can attract the <br>audience and make them feel easier to surf through.
+                             </p>
+                            </div>
+                        </div>
+                        <div class = "row mt-5">
+                            <div class = "mt-5 mr-5">
+                                <img class="img" style= "height: 150px; width : 150px"src= "../img/chillu.png">
+                            </div>
+                            <div class = "mt-5">
+                                <p class = "h5 mb-2"><strong>Sahith Chiluveru</strong></p>
+                                <p class = "mb-3">Front End Developer</p>
+                                <p>Being a Front-End developer, I can almost figure<br> out every framework out there. Working in this field
+                                <br>made me realise how complex a framework can be. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style = "margin-top:8em">
+                        <div class = "main" >
+                            <div class = "m_q">
+                                <div class="square"></div>
+                                <div class="vl_1"></div>
+                                <div class="square"></div>
+                                <div class="vl_2"></div>
+                                <div class="square"></div>
+                                <div class="vl_3"></div>
+                                <div class="square"></div>
+                                <div class="vl_4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id = "section_2" class = "d-flex flex-row justify-content-end pl-5" style = "margin-top:10em">
+                    <div class = "col-mb-6"i style = "margin-right:2em">
+                        <div class = "row mr-b-5">
+                            <div class = "pr-5">
+                                <img class="img" style= "height: 150px; width : 150px"src= "../img/isha.png">
+                            </div>
+                            <div>
+                                <p class = "h5 mb-2"><strong>Rajeswari Reddy</strong></p>
+                                <p class = "mb-3">Back End Developer</p>
+                                <p>Ever since I started coding, I was always<br> more into how Back-End works and how <br>challenging
+                                    it is to improvise
+                                    it by adding <br>more security.
+                                </p>
+                            </div>
+                        </div>
+                        <div class = "row mt-5">
+                            <div class = "mt-5 mr-5">
+                                <img class="img" style= "height: 150px; width : 150px"src= "../img/sat.jpeg">
+                            </div>
+                            <div class = "mt-5">
+                                <p class = "h5 mb-2"><strong>Sathwik Kothapalli</strong></p>
+                                <p class = "mb-3">Front End Developer</p>
+                                <p>I was 6 when my dad got a desktop <br>computer for us.
+                                Since then, I was always <br>curious about how it works underneath. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <div id = "footer_section" style="background-image: url(../img/footerbg.png); ">
+        <p class = "serif h1">Big Book Courses</p>
+        <p class = "h6">Courses? BBC!</p>
+        <ul class="nav form-inline mt-4">
+            <li class="nav-item">
+                <a class="nav-link" href="../home/home.html"><p id = "home_1" >Home</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../courses/courses.html"><p id = "courses_1">Popular Courses</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../search/search.html"><p id = "search_1" >Search</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><p id = "elibrary_1" >e-Library</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#personal_section"><p id = "about_1">About</p></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../contact-us/contactus.html"><p id = "contact_1" >Contact Us</p></a>
+            </li>
+        </ul>
+        <hr class = "hr_1">
+        <p class = "h6">Connect with us</p>
+        <div>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+    </div>
+</body>
+</html>

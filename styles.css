@@ -1,0 +1,285 @@
+body {
+    overflow-x : hidden
+}
+#logo {
+    height : 54px;
+    width : 180px;
+}
+#logo_section {
+    margin-left : 7%; 
+}
+#navigation_section{
+    margin-right : 2%;
+}
+
+#buttons_section{
+    margin-right : 5%;
+}
+
+#sign_in, #sign_up {
+    line-height : 1.8em;
+    border-radius : 0px;
+    font-family : sans-serif;
+}
+#sign_in {
+    background-color : rgb(12, 165, 253);
+    margin : 0 10px 0 10px;
+}
+
+#sign_up {
+    background-color : rgb(14, 115, 248);
+}
+
+#home {
+  border-bottom: 3px solid rgb(50, 53, 205);
+}
+
+#home, #courses, #about, #search, #elibrary, #contact {
+    color : grey;
+}
+
+p {
+    margin : 0 0 0 0; 
+    color : black;
+}
+
+
+#main_section {
+    box-shadow: 0px 0px 3px  #000000;
+    margin : 0;
+    padding : 0;
+}
+
+/*________________________________________________________*/
+
+
+
+#mainpage {
+    display : flex;
+    align-items: center;     
+}
+
+#art_img {
+    height : 45em;
+    width : 100%;
+}
+
+#art_img_section {
+    position : absolute;
+    left : 15%;
+}
+
+p.bold_text {
+    font-size : 3em;
+    font-weight: bold;
+    color : black;
+}
+
+#start_bt_section {
+    margin-top : 1.5em;
+}
+
+#get_started, #prev, #next,
+#view_all, #read_more, #plus {
+    border : 1px solid rgb(50, 156, 205);
+    background : none;
+}
+
+#get_started:hover, #view_all:hover, 
+#read_more:hover {
+    background-color : rgb(50, 135, 205)
+}
+
+/*________________________________________________________*/
+
+#introbbc {
+    margin : 7% 0 3em 5%;
+    height : auto;
+    background-image: url('../nlo_1.jpg');
+    background-repeat: no-repeat;
+    background-position: right center; 
+    background-size: auto 100%;
+}
+
+.feature_text {
+    color : black;
+    margin-top : 1.5em;
+}
+#feature_cours_img_section {
+    margin-top : 3em;
+}
+
+.course_name {
+    font-size : 1.5em;
+    color : black;
+    font-weight: bold;
+}
+
+#plus {
+    font-size : 15px
+}
+
+/*________________________________________________________*/
+
+#grey_section {
+    background-color : #F3EBEB;
+    height : 15em;
+    width : 100%;
+}
+
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    height: 100%;
+    width: 0.5em;
+    transition: .5s ease;
+    background-color: rgb(50, 130, 205);;
+}
+
+
+.text {
+    opacity : 0;
+    color: white;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/*________________________________________________________*/
+
+
+#plus {
+	margin-left : 2em
+}
+
+/*________________________________________________________*/
+
+#personal_section {
+    height : auto;
+    width : 100%;
+}
+
+.square {
+    height : 8px;
+    width : 8px;
+    border: 1px solid grey;
+}
+
+.vl_1 {
+    border-left: 1px solid grey;
+    height: 20%;
+}
+
+.vl_2 {
+    border-left: 1px solid grey;
+    height: 35%;
+}
+
+.vl_3 {
+    border-left: 1px solid grey;
+    height: 22.5%;
+}
+
+.vl_4 { 
+    border-left: 1px solid grey;
+    height: 22.5%;
+}
+
+.m_q {
+	height : 100%;
+	display: flex;          
+	flex-direction: column; 
+	align-items: center;
+}
+.main {
+	width : 10px;
+	height : 100%;
+	display: flex;     
+	flex-direction: column;
+	align-items: flex-end;
+}
+
+/*________________________________________________________*/
+
+#footer_section {
+    display : flex;
+    flex-direction : column;
+    align-items: center;     
+    height : 27em;
+    width : 100%;
+    margin-top : 5em;
+    background-color : #555;
+}
+
+#footer_section > * {
+    color : white;
+}
+
+p.serif { 
+    margin-top : 2em;
+    font-family: "Times New Roman", Times, serif; 
+}
+
+#home_1, #courses_1, #search_1, #about_1,#elibrary_1, #contact_1 {
+    color : white;
+}
+
+.hr_1 {
+    border: 1px solid grey;
+    width : 60px;
+}
+.fa {
+    padding: 12px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius : 5px
+}
+
+
+
+
+
+.fa{
+    background: #202020;    
+    color: white;
+}
+
+#circle_image {
+    height : 40px;
+    width : 40px;
+    border : 1px solid #555;
+    border-radius : 50%
+}
+.del {
+    font-size : 20px;
+    color : grey;
+}
+
+.price {
+    font-size : 30px;
+    color : #FF3C3C;
+}
+#cours_image {
+    height : 300px;
+    width : 100%;
+}
+
+#img_sec {
+    padding : 0
+}
